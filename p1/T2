@@ -1,0 +1,9 @@
+#!/bin/sh
+
+# the sample run in p1.txt with given output
+echo
+echo RMB  181 0.099609
+echo
+/usr/bin/time -p   ./p1  500 500 0 100 100 100 0.1
+echo
+

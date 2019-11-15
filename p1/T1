@@ -1,0 +1,8 @@
+#!/bin/sh
+
+# tiny test to get started
+echo
+echo RMB  387 0.099960
+echo
+/usr/bin/time -p   ./p1  200 200 100 200 300 400 0.1
+echo

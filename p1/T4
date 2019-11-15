@@ -1,0 +1,8 @@
+#!/bin/sh
+
+# should be do-able by a *C* pgm in under 10 secs even on magpie (goes to iter 322)
+echo
+echo RMB  322 0.049942
+echo
+/usr/bin/time -p   ./p1  1111 2222 0 100 100 100 0.05
+echo

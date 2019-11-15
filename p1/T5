@@ -1,0 +1,12 @@
+#!/bin/sh
+
+echo
+echo RMB  "   1  24.994446"
+echo RMB  "3234   0.014984"
+echo
+echo
+/usr/bin/time -p  ./p1  1500 3000 100 100 100 400 0.015
+echo
+pwd
+echo
+
